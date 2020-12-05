@@ -18,6 +18,10 @@ header h1 {
   text-align: center;
 }
 
+header h4 {
+  color: #fff;
+  text-align: center;
+}
 main {
   width: 100%;
   max-width: 960px;
@@ -96,9 +100,60 @@ section {
 }
 
 .popup .content {
-  display: flex;
+  display: block;
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
   padding: 25px;
+  color: #fff;
+}
+
+.popup .content h2 {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.popup .content h2 span {
+  font-weight: 300;
+  font-size: 28px;
+}
+
+.popup .content .rating {
+  margin-bottom: 30px;
+}
+.popup .content .plot {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px -15px 20px;
+}
+
+.popup .content .plot img {
+  flex: 1 1 50%;
+  max-width: 300px;
+  padding: 0px 15px;
+}
+
+.popup .content .plot p {
+  flex: 1 1 50%;
+  padding: 15px;
+}
+
+.popup .content .close {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: #4484c4;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  appearance: none;
+  cursor: pointer;
+
+  transition: 0.4s ease-out;
+}
+
+.popup .content .close:hover {
+  background: #223343;
 }
