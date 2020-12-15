@@ -4,4 +4,4 @@ Cinephilia is an React App where in User can search the movie and it wil give th
 
 Deployed using Netlify 
 
-Live Site[https://cinephelia.netlify.app/]
+[Live Site](https://cinephelia.netlify.app/)
